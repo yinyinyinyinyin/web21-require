@@ -1,0 +1,12 @@
+<div>我是home页面</div>
+<ul>
+	%{
+		for(var i = 0;i<books.length;i++){
+			var book = books[i];
+	}%
+	<li>{-book.name}</li>
+	%{
+		}
+		
+	}%
+</ul>
